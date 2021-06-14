@@ -17,6 +17,10 @@ call plug#end()
 " Enable Line Numbers
 set nu
 
+" Set whitespace tabs
+set expandtab
+set tabstop=2
+
 " Set colorscheme
 colorscheme gruvbox
 

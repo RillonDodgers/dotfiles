@@ -8,7 +8,7 @@ else
 fi
 
 install_vim () {
-  ### Install Vim ###
+	### Install Vim ###
 	if ! [[ -x "$(command -v vim)" ]]; then
 		### Check to see if vim is installed ###
 		if [[ -x "$(command -v apt)" ]]; then
